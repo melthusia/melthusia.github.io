@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        body {
+            font-family: monospace;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: white;
+        }
+        .content {
+            font-size: 32px; /* Twice default size */
+            width: 80ch; /* 80 characters width */
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            line-height: 1.2; /* Terminal-like line spacing */
+        }
+        a {
+            color: inherit; /* Use default text color */
+            text-decoration: underline;
+        }
+        a:hover {
+            background-color: #f0f0f0;
+        }
+        /* Handle smaller screens */
+        @media (max-width: 85ch) {
+            .content {
+                width: 100%;
+                max-width: 80ch;
+            }
+        }
+        /* Adjust font size for mobile */
+        @media (max-width: 768px) {
+            .content {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body><div class="content"># <a href="README.html">the rising tide waits for no one</a>
+----------------------------------
+
+
+<a href="https://x.com/mel_thusia" target="_blank">social</a>
+</div></body>
+</html>
