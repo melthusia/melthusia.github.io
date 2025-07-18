@@ -1,44 +1,27 @@
-<!DOCTYPE html><html lang='en'><head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'>
-<title>index</title><style>
-@font-face {
-  font-family: 'SimBrailleWeb';
-  src: url('fonts/SimBrailleWeb.woff2') format('woff2');
-  font-display: swap;
-}
-
+<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><title>index</title><style>
 body {
-  margin: 0;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  background: #fff;
+  margin:0; display:flex; justify-content:center;
+  min-height:100vh; background:#fff;
 }
 
 .content {
-  font-family: SimBrailleWeb, Unifont, "DejaVu Sans Mono", FreeMono, monospace;
-  font-size: 32px;
-  line-height: 1em;          /* 1 terminal row */
-  white-space: pre;
-  word-spacing: 0;
-  letter-spacing: -0.05em;  /* tighten cols */
-  font-variant-ligatures: none;
-  font-kerning: none;
-  -webkit-font-smoothing: none;
-  -moz-osx-font-smoothing: unset;
-  text-rendering: optimizeSpeed;
-  width: 80ch;
+  font-family: monospace;
+  font-size:28px; line-height:1em;           /* 1 terminal row per glyph */
+  white-space:pre; word-spacing:0;           /* keep grid */
+  letter-spacing:0.0000em;     /* WezTerm cell_width */
+  font-variant-ligatures:none; font-kerning:none;
+  -webkit-font-smoothing:none; -moz-osx-font-smoothing:unset;
+  text-rendering:optimizeSpeed;
+  width:80ch;
 }
 
-@media (max-width: 85ch) {
-  .content { width: 100%; max-width: 80ch; }
+@media (max-width:85ch) {
+  .content{width:100%;max-width:80ch;}
 }
-@media (max-width: 768px) {
-  .content { font-size: 20px; }
+@media (max-width:768px) {
+  .content{font-size:20px;}
 }
-</style></head>
-<body><pre class='content'># <a href="index.html" target="_blank">the rising tide waits for no one</a>
+</style></head><body><pre class='content'># <a href="index.html" target="_blank">the rising tide waits for no one</a>
 ----------------------------------
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠈⠠⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⣀⠈⢶⣤⣄⣀⣭⡽⠋⠁⢈⣆⠀⠀⠀⠀⠿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
