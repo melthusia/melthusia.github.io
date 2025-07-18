@@ -1,4 +1,4 @@
-# [the rising tide waits for no one](README)
+# [the rising tide waits for no one](index)
 ----------------------------------
 
 
